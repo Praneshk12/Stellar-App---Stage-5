@@ -29,7 +29,7 @@ export default class DailyPicScreen extends Component {
         if (Object.keys(this.state.apod).length === 0) {
             return (
                 <View style={styles.container}>
-              <ImageBackground source={require('../assets/stars.gif')} style={[styles.backgroundImage,{width:"100%",height:"100%"}]}>
+              <ImageBackground source={require('./stars.gif')} style={[styles.backgroundImage,{width:"100%",height:"100%"}]}>
                <View
             style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
                     
@@ -46,7 +46,7 @@ export default class DailyPicScreen extends Component {
                 <View style={styles.container}>
                 <ScrollView>
                 <SafeAreaView style={styles.droidSafeArea}>
-                  <ImageBackground source={require('../assets/stars.gif')}
+                  <ImageBackground source={require('./stars.gif')}
                   style={styles.backgroundImage}
                   >
                   <Text style={styles.routeText}> Daily Pic </Text>
