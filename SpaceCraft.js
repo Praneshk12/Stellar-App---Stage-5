@@ -51,7 +51,7 @@ export default class SpaceCraftScreen extends Component {
           if(Object.keys(this.state.aircrafts).length === 0) {
             return (
               <View style={styles.container}>
-              <ImageBackground source={require('../assets/stars.gif')} style={[styles.backgroundImage,{width:"100%",height:"100%"}]}>
+              <ImageBackground source={require('./stars.gif')} style={[styles.backgroundImage,{width:"100%",height:"100%"}]}>
                <View
             style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
                     
@@ -66,7 +66,7 @@ export default class SpaceCraftScreen extends Component {
         }else{
           return(
             <View style={styles.container}> 
-            <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
+            <ImageBackground source={require('./stars.gif')} style={styles.backgroundImage}>
             <SafeAreaView style={styles.droidSafeArea}>
             <View
                 style={{
